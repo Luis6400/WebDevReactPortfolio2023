@@ -57,7 +57,7 @@ export default function Nav({currentpage, handlePageChange}) {
                         <div onClick={()=>handlePageChange(homepage)} className="-m-1.5 p-1.5">
                             <span className="sr-only">Luis Villarreal</span>
                             <img
-                                className="h-8 w-auto"
+                                className="h-12 w-12 object-cover rounded-full"
                                 src={louis}
                                 alt=""
                             />
