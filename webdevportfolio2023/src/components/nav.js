@@ -58,7 +58,7 @@ export default function Nav({currentpage, handlePageChange}) {
                             <span className="sr-only">Luis Villarreal</span>
                             <img
                                 className="h-8 w-auto"
-                                src={lv}
+                                src={louis}
                                 alt=""
                             />
                         </div>
