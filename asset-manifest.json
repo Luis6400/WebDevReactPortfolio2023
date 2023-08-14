@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/WebDevReactPortfolio2023/static/css/main.5981f762.css",
-    "main.js": "/WebDevReactPortfolio2023/static/js/main.fd6e64af.js",
+    "main.js": "/WebDevReactPortfolio2023/static/js/main.3500d035.js",
     "static/js/787.9c8a5203.chunk.js": "/WebDevReactPortfolio2023/static/js/787.9c8a5203.chunk.js",
     "static/media/git.png": "/WebDevReactPortfolio2023/static/media/git.54ea08841997e5eaeecd.png",
     "static/media/sleep.png": "/WebDevReactPortfolio2023/static/media/sleep.354a6e58f999abd4d723.png",
@@ -11,11 +11,11 @@
     "static/media/lv.png": "/WebDevReactPortfolio2023/static/media/lv.de2f0531b4daf34a8b84.png",
     "index.html": "/WebDevReactPortfolio2023/index.html",
     "main.5981f762.css.map": "/WebDevReactPortfolio2023/static/css/main.5981f762.css.map",
-    "main.fd6e64af.js.map": "/WebDevReactPortfolio2023/static/js/main.fd6e64af.js.map",
+    "main.3500d035.js.map": "/WebDevReactPortfolio2023/static/js/main.3500d035.js.map",
     "787.9c8a5203.chunk.js.map": "/WebDevReactPortfolio2023/static/js/787.9c8a5203.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5981f762.css",
-    "static/js/main.fd6e64af.js"
+    "static/js/main.3500d035.js"
   ]
 }
