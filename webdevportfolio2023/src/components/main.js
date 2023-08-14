@@ -3,7 +3,7 @@ import { CheckIcon } from '@heroicons/react/20/solid'
 const skillsfeatures = ["Java", "JavaScript", "Node.js", "React", "MySQL", "MongoDB", "Express.js", "Tailwind CSS", "Bootstrap CSS", "Git", "HTML", "CSS", "Handlebars", "JQuery", "Inquirer", "RESTful APIs", "npm", "CLI apps", "Full Stack Web Development", "Object-Oriented Programming", "Tech Support", "Problem-Solving", "Adaptability"]
 
 
-export default function Home() {
+export default function Home({handlePageChange}) {
 
     return (
         <div className="bg-white">
@@ -26,7 +26,7 @@ export default function Home() {
                     <div className="hidden sm:mb-8 sm:flex sm:justify-center">
                         <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
                             Check out my GitHub.{' '}
-                            <a href="#" className="font-semibold text-indigo-600">
+                            <a href="https://github.com/Luis6400" target={'_blank'} className="font-semibold text-indigo-600">
                                 <span className="absolute inset-0" aria-hidden="true" />
                                 Click Here <span aria-hidden="true">&rarr;</span>
                             </a>
@@ -42,11 +42,12 @@ export default function Home() {
                         <div className="mt-10 flex items-center justify-center gap-x-6">
                             <a
                                 href="#"
+                                onClick={()=> handlePageChange('projects')}
                                 className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                             >
                                 My Projects
                             </a>
-                            <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+                            <a href="#" onClick={()=>handlePageChange('about')} className="text-sm font-semibold leading-6 text-gray-900">
                                 Read more about me <span aria-hidden="true">→</span>
                             </a>
                         </div>

@@ -16,7 +16,7 @@ function App() {
     <div>
 
       <Nav currentpage={currentPage} handlePageChange={handlePageChange}/>
-      {currentPage === 'home' && <Home/>}
+      {currentPage === 'home' && <Home handlePageChange={handlePageChange}/>}
       {currentPage === 'about' && <About/>}
       {currentPage === 'projects' && <Projects/>}
 
