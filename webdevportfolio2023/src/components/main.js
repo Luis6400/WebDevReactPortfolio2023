@@ -1,6 +1,7 @@
 import { CheckIcon } from '@heroicons/react/20/solid'
 
-const skillsfeatures = ["Java", "JavaScript", "Node.js", "React", "MySQL", "MongoDB", "Express.js", "Tailwind CSS", "Bootstrap CSS", "Git", "HTML", "CSS", "Handlebars", "JQuery", "Inquirer", "RESTful APIs", "npm", "CLI apps", "Full Stack Web Development", "Object-Oriented Programming", "Tech Support", "Problem-Solving", "Adaptability"]
+const skillsfeatures = ["Java", "JavaScript", "Node.js", "React", "MySQL", "GraphQL", "MongoDB", "Express.js", "Tailwind CSS", "Bootstrap CSS", "Handlebars", "JQuery", "Inquirer", "RESTful APIs"]
+
 
 
 export default function Home({handlePageChange}) {
