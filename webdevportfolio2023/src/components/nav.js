@@ -6,6 +6,7 @@ import louis from "../assets/louis.png"
 import Home from './main'
 
 const navigation = [
+    { name: 'Home', page: 'home', href: '#'},
     { name: 'GitHub', href: 'https://github.com/Luis6400', target: "_blank" },
     { name: 'LinkedIn', href: 'https://www.linkedin.com/in/luisvillarreal21/', target: "_blank" },
     { name: 'Projects', page: 'projects', href: '#'},
